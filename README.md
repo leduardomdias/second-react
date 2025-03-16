@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# ⏳ Stopwatch - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Sobre o projeto
+Este é um aplicativo de cronômetro desenvolvido em **React**. Ele permite iniciar, pausar e resetar a contagem do tempo com um design simples e intuitivo.
 
-## Available Scripts
+## 🚀 Funcionalidades
+- **Iniciar/Pausar o cronômetro**: O botão alterna entre iniciar e pausar a contagem do tempo.
+- **Resetar o cronômetro**: Permite zerar o tempo e redefinir o botão para o estado inicial.
+- **Atualização em tempo real**: O cronômetro é atualizado a cada centésimo de segundo (0.01s).
 
-In the project directory, you can run:
+## 🛠️ Tecnologias utilizadas
+- React.js
+- CSS
 
-### `npm start`
+## 📂 Estrutura do projeto
+```
+/src
+  ├── assets/
+  │   ├── cronometro.png
+  ├── components/
+  ├── App.js
+  ├── style.css
+  ├── index.js
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Como executar o projeto
+1. **Clone o repositório:**
+   ```sh
+   git clone https://github.com/leduardomdias/second-react.git
+   ```
+2. **Acesse o diretório do projeto:**
+   ```sh
+   cd second-react
+   ```
+3. **Instale as dependências:**
+   ```sh
+   npm install
+   ```
+4. **Execute a aplicação:**
+   ```sh
+   npm start
+   ```
+5. **Abra no navegador:**
+   ```
+   http://localhost:3000
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Uso
+- **Clique no botão "GO"** para iniciar o cronômetro.
+- **Clique no botão "PAUSE"** para pausar a contagem.
+- **Clique no botão "RESET"** para zerar o cronômetro.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📄 Licença
+Este projeto está sob a licença MIT.
 
-### `npm run build`
+---
+Desenvolvido por **Luís Eduardo** 🚀
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
