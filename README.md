@@ -26,11 +26,11 @@ Este é um aplicativo de cronômetro desenvolvido em **React**. Ele permite inic
 ## 🎯 Como executar o projeto
 1. **Clone o repositório:**
    ```sh
-   git clone https://github.com/leduardomdias/second-react.git
+   git clone https://github.com/leduardomdias/stopwatch-react.git
    ```
 2. **Acesse o diretório do projeto:**
    ```sh
-   cd second-react
+   cd stopwatch-react
    ```
 3. **Instale as dependências:**
    ```sh
